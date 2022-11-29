@@ -57,7 +57,7 @@ export default function Home() {
               React.JS Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-            +1 year experienced in IT and a software developer. I have been focusing on MERN Stack technologies for the last year. I'm developing full-stack projects with React.js and Node.js
+            +1 year experienced in IT and a software developer. I have been focusing on MERN Stack technologies for the last year. I am developing full-stack projects with React.js and Node.js
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <div className="cursor-pointer hover:text-blue-400"><Link href="https://twitter.com/hsyn_bttl"><a target="blank"><AiFillTwitterCircle /></a></Link></div>
