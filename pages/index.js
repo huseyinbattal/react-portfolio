@@ -30,7 +30,9 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <div>
+            <Link href="https://www.huseyinbattal.online">
+              <a target="blank">
+              <div className="hover:scale-150 transition-transform duration-500 cursor-pointer">
               <Image
                 className="rounded-full"
                 height={45}
@@ -39,6 +41,8 @@ export default function Home() {
                 alt="logo"
               />
             </div>
+            </a>
+            </Link>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -98,7 +102,7 @@ export default function Home() {
             Portfolio
           </h1>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap ">
-            <div className="basis-1/3 flex-1 border-2 border-teal-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-500">
+            <div className="basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
               <Link href="https://github.com/huseyinbattal/Movie-App-with-React-Redux">
                 <a target="blank">
                   <h1 className="text-red-500 font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
@@ -115,89 +119,89 @@ export default function Home() {
                 </a>
               </Link>
             </div>
-            <div className="basis-1/3 flex-1 border-2 border-teal-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-500">
+            <div className="basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
               <Link href="https://github.com/huseyinbattal/book-it">
                 <a target="blank">
                   <h1 className="text-red-500 font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
                     Book IT
                   </h1>
-            
-              <Image
-                className="rounded-lg object-fit"
-                width={200}
-                height={200}
-                layout="responsive"
-                src={web2}
+
+                  <Image
+                    className="rounded-lg object-fit"
+                    width={200}
+                    height={200}
+                    layout="responsive"
+                    src={web2}
                   />
-                      </a>
+                </a>
               </Link>
             </div>
-            <div className="basis-1/3 flex-1 border-2 border-teal-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-500">
+            <div className="basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
               <Link href="https://github.com/huseyinbattal/magic-form">
                 <a target="blank">
                   <h1 className="text-red-500 font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
                     Magic Form
                   </h1>
-            
-              <Image
-                className="rounded-lg object-fit"
-                width={200}
-                height={200}
-                layout="responsive"
-                src={web3}
+
+                  <Image
+                    className="rounded-lg object-fit"
+                    width={200}
+                    height={200}
+                    layout="responsive"
+                    src={web3}
                   />
-                      </a>
+                </a>
               </Link>
             </div>
-            <div className="basis-1/3 flex-1 border-2 border-teal-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-500">
+            <div className="basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
               <Link href="https://github.com/huseyinbattal/Live-Chat-App-with-Node.js">
                 <a target="blank">
                   <h1 className="text-red-500 font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
                     Live Chat
                   </h1>
-              
-              <Image
-                className="rounded-lg object-fit"
-                width={200}
-                height={200}
-                layout="responsive"
-                src={web4}
+
+                  <Image
+                    className="rounded-lg object-fit"
+                    width={200}
+                    height={200}
+                    layout="responsive"
+                    src={web4}
                   />
-                    </a>
+                </a>
               </Link>
             </div>
-            <div className="basis-1/3 flex-1 border-2 border-teal-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-500">
+            <div className="basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
               <Link href="https://github.com/huseyinbattal/React-Tic-Tac-Toe-Game">
                 <a target="blank">
                   <h1 className="text-red-500 font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
                     XOX
                   </h1>
-            
-              <Image
-                className="rounded-lg object-fit"
-                width={200}
-                height={200}
-                layout="responsive"
-                src={web5}
+
+                  <Image
+                    className="rounded-lg object-fit"
+                    width={200}
+                    height={200}
+                    layout="responsive"
+                    src={web5}
                   />
-                      </a>
+                </a>
               </Link>
             </div>
-            <div className="basis-1/3 flex-1 border-2 border-teal-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-500">
+            <div className="basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
               <Link href="https://github.com/huseyinbattal/huseyin-battal-portfolio-site">
                 <a target="blank">
                   <h1 className="text-red-500 font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
                     Personal Website
                   </h1>
-          
-              <Image
-                className="rounded-lg object-fit"
-                width={200}
-                height={200}
-                layout="responsive"
-                src={web6}
+
+                  <Image
+                    className="rounded-lg object-fit"
+                    width={200}
+                    height={200}
+                    layout="responsive"
+                    src={web6}
                   />
-                        </a>
+                </a>
               </Link>
             </div>
           </div>
