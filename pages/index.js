@@ -174,7 +174,7 @@ export default function Home() {
               <Link href="https://github.com/huseyinbattal/React-Tic-Tac-Toe-Game">
                 <a target="blank">
                   <h1 className="text-red-500 font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
-                    XOX
+                    XOX Game
                   </h1>
 
                   <Image
