@@ -154,10 +154,10 @@ export default function Home() {
               </Link>
             </div>
             <div className="basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
-              <Link href="https://github.com/huseyinbattal/Live-Chat-App-with-Node.js">
+              <Link href="https://github.com/huseyinbattal/react-portfolio">
                 <a target="blank">
                   <h1 className="text-red-500 font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
-                    Live Chat
+                    Portfolio
                   </h1>
 
                   <Image
