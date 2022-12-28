@@ -54,7 +54,7 @@ export default function Home() {
                 <a
                   target="blank"
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1Zoc6X9F3MLkXId08u3sKSnYMduoJeBFP/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1JkBhJ00O3UUkwe_KTYv4vJcK2a6Ihl1s/view?usp=sharing"
                 >
                   Resume
                 </a>
