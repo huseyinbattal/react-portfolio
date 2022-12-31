@@ -31,7 +31,7 @@ export default function Home() {
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
             <Link href="https://www.huseyinbattal.online">
-              <a target="blank">
+              <a>
                 <div className="hover:scale-150 transition-transform duration-500 cursor-pointer">
                   <Image
                     className="rounded-full"
@@ -66,7 +66,7 @@ export default function Home() {
               Hüseyin Battal
             </h2>
             <h3 className="py-2 dark:text-white md:text-3xl">
-            Full Stack Web Developer
+              Full Stack Web Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Let`s connect and build amazing projects together!
