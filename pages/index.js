@@ -98,19 +98,19 @@ export default function Home() {
         </section>
         <hr />
         <section className="py-10">
-          <h1 className="text-4xl py-1 dark:text-white text-center font-mono text-blue-900 ">
+          <h1 className="text-4xl py-1  dark:text-white text-center font-mono text-blue-900 ">
             Portfolio
           </h1>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap ">
-            <div className="basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
+            <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
               <Link href="https://github.com/huseyinbattal/Movie-App-with-React-Redux">
                 <a target="blank">
-                  <h1 className="text-red-500 font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
+                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
                     Movie App
                   </h1>
 
                   <Image
-                    className="rounded-lg object-fit"
+                    className="rounded-lg object-contain"
                     width={200}
                     height={200}
                     layout="responsive"
@@ -119,15 +119,15 @@ export default function Home() {
                 </a>
               </Link>
             </div>
-            <div className="basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
+            <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
               <Link href="https://github.com/huseyinbattal/book-it">
                 <a target="blank">
-                  <h1 className="text-red-500 font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
+                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
                     Book IT
                   </h1>
 
                   <Image
-                    className="rounded-lg object-fit"
+                    className="rounded-lg object-contain"
                     width={200}
                     height={200}
                     layout="responsive"
@@ -136,15 +136,15 @@ export default function Home() {
                 </a>
               </Link>
             </div>
-            <div className="basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
+            <div className=" bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
               <Link href="https://github.com/huseyinbattal/magic-form">
                 <a target="blank">
-                  <h1 className="text-red-500 font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
+                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
                     Magic Form
                   </h1>
 
                   <Image
-                    className="rounded-lg object-fit"
+                    className="rounded-lg object-contain"
                     width={200}
                     height={200}
                     layout="responsive"
@@ -153,15 +153,15 @@ export default function Home() {
                 </a>
               </Link>
             </div>
-            <div className="basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
+            <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
               <Link href="https://github.com/huseyinbattal/react-portfolio">
                 <a target="blank">
-                  <h1 className="text-red-500 font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
+                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
                     Portfolio
                   </h1>
 
                   <Image
-                    className="rounded-lg object-fit"
+                    className="rounded-lg object-contain"
                     width={200}
                     height={200}
                     layout="responsive"
@@ -170,15 +170,15 @@ export default function Home() {
                 </a>
               </Link>
             </div>
-            <div className="basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
+            <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
               <Link href="https://github.com/huseyinbattal/React-Tic-Tac-Toe-Game">
                 <a target="blank">
-                  <h1 className="text-red-500 font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
+                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
                     XOX Game
                   </h1>
 
                   <Image
-                    className="rounded-lg object-fit"
+                    className="rounded-lg object-contain"
                     width={200}
                     height={200}
                     layout="responsive"
@@ -187,15 +187,15 @@ export default function Home() {
                 </a>
               </Link>
             </div>
-            <div className="basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
+            <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
               <Link href="https://github.com/huseyinbattal/huseyin-battal-portfolio-site">
                 <a target="blank">
-                  <h1 className="text-red-500 font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
+                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
                     Personal Website
                   </h1>
 
                   <Image
-                    className="rounded-lg object-fit"
+                    className="rounded-lg object-contain"
                     width={200}
                     height={200}
                     layout="responsive"
