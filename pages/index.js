@@ -23,7 +23,7 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   const down = () => {
     window.scroll({
-      top: 550,
+      top: 500,
       left: 100,
       behavior: 'smooth'
     });
@@ -37,7 +37,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
-        <section className="">
+        <section className="-mb-4">
           <nav className="py-10 mb-12 flex justify-between dark:text-white ">
             <Link href="/">
               <a>
@@ -107,7 +107,7 @@ export default function Home() {
         </section>
         <hr />
         <section className="py-10">
-          <h1 className=" text-2xl md:text-3xl py-1  dark:text-white text-center text-blue-900 mb-12 ">
+          <h1 className=" text-2xl md:text-3xl py-1  dark:text-white text-center text-blue-900 mb-12 -mt-6 ">
             <div className="flex justify-center space-x-4">
               <span>My Projects</span> <BsFillArrowDownSquareFill size={35} className="hover:text-red-800 text-teal-600 cursor-pointer dark:hover:text-white dark:text-gray-400 " onClick={down} />
             </div>
