@@ -113,13 +113,14 @@ export default function Home() {
             </div>
           </h1>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap ">
+
             {/* Projects */}
 
             {/* Book It */}
-            <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
+            <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-xl p-4 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition h-96">
               <Link href="https://github.com/huseyinbattal/book-it">
                 <a target="blank">
-                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
+                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white -mb-12 mt-1">
                     Book IT
                   </h1>
 
@@ -135,10 +136,10 @@ export default function Home() {
             </div>
 
             {/* Google Clone */}
-            <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
+            <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-4 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition h-96">
               <Link href="https://github.com/huseyinbattal/google-clone">
                 <a target="blank">
-                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
+                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white -mb-12 mt-1">
                     Google Clone
                   </h1>
 
@@ -154,10 +155,10 @@ export default function Home() {
             </div>
 
             {/* Movie App */}
-            <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
+            <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-4 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition h-96">
               <Link href="https://github.com/huseyinbattal/Movie-App-with-React-Redux">
                 <a target="blank">
-                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
+                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white -mb-12 mt-1">
                     Movie App
                   </h1>
 
@@ -173,10 +174,10 @@ export default function Home() {
             </div>
 
             {/* Magic Form */}
-            <div className=" bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
+            <div className=" bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-4 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition h-96">
               <Link href="https://github.com/huseyinbattal/magic-form">
                 <a target="blank">
-                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
+                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white -mb-12 mt-1">
                     Magic Form
                   </h1>
 
@@ -192,10 +193,10 @@ export default function Home() {
             </div>
 
             {/* XOX Game */}
-            <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
+            <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-4 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition h-96">
               <Link href="https://github.com/huseyinbattal/React-Tic-Tac-Toe-Game">
                 <a target="blank">
-                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
+                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white -mb-12 mt-1">
                     XOX Game
                   </h1>
 
@@ -211,10 +212,10 @@ export default function Home() {
             </div>
 
             {/* Personal Website */}
-            <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
+            <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-4 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition h-96">
               <Link href="https://github.com/huseyinbattal/huseyin-battal-portfolio-site">
                 <a target="blank">
-                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
+                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white -mb-12 mt-1">
                     Personal Website
                   </h1>
 

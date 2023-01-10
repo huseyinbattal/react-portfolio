@@ -5,7 +5,7 @@ const Footer = () => {
         <span>© {new Date().getFullYear()} / Hüseyin BATTAL</span>
         <p className="mb-0">
           <a
-            className="e-mail hover:text-red-500 hover:underline hover:dark:text-teal-400"
+            className="e-mail underline text-red-500 hover:text-blue-800 hover:underline hover:dark:text-teal-400"
             href="https://www.huseyinbattal.online/"
             rel="noopener noreferrer"
           >
