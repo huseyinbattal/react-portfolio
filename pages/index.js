@@ -39,7 +39,7 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <Link href="https://www.huseyinbattal.online">
+            <Link href="/">
               <a>
                 <div className="hover:scale-150 transition-transform duration-500 cursor-pointer">
                   <Image
@@ -197,7 +197,7 @@ export default function Home() {
               <Link href="https://github.com/huseyinbattal/React-Tic-Tac-Toe-Game">
                 <a target="blank">
                   <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white -mb-12 mt-1">
-                    XOX Game
+                  Tic-Tac-Toe
                   </h1>
 
                   <Image
