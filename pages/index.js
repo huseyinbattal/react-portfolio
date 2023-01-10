@@ -1,3 +1,4 @@
+import { BsFillArrowDownSquareFill } from "react-icons/bs";
 import Head from "next/head";
 import {
   AiFillTwitterCircle,
@@ -10,7 +11,7 @@ import Image from "next/image";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
+import web4 from "../public/go-clone.gif";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 import logo from "../public/logobg.svg";
@@ -19,7 +20,14 @@ import Link from "next/link";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
-
+  const down = () => {
+    window.scroll({
+      top: 550,
+      left: 100,
+      behavior: 'smooth'
+    });
+    
+}
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -28,7 +36,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
-        <section className="min-h-screen">
+        <section className="">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
             <Link href="https://www.huseyinbattal.online">
               <a>
@@ -98,27 +106,15 @@ export default function Home() {
         </section>
         <hr />
         <section className="py-10">
-          <h1 className="text-4xl py-1  dark:text-white text-center font-mono text-blue-900 ">
-            Portfolio
+          <h1 className=" text-4xl py-1  dark:text-white text-center font-mono text-blue-900 ">
+            <div className="flex justify-center space-x-4">
+              <span>My Projects</span> <BsFillArrowDownSquareFill className="hover:text-red-800 text-teal-600 cursor-pointer" onClick={down} />
+            </div>
           </h1>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap ">
-            <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
-              <Link href="https://github.com/huseyinbattal/Movie-App-with-React-Redux">
-                <a target="blank">
-                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
-                    Movie App
-                  </h1>
+            {/* Projects */}
 
-                  <Image
-                    className="rounded-lg object-contain"
-                    width={200}
-                    height={200}
-                    layout="responsive"
-                    src={web1}
-                  />
-                </a>
-              </Link>
-            </div>
+            {/* Book It */}
             <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
               <Link href="https://github.com/huseyinbattal/book-it">
                 <a target="blank">
@@ -136,6 +132,46 @@ export default function Home() {
                 </a>
               </Link>
             </div>
+
+            {/* Google Clone */}
+            <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
+              <Link href="https://github.com/huseyinbattal/google-clone">
+                <a target="blank">
+                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
+                    Google Clone
+                  </h1>
+
+                  <Image
+                    className="rounded-lg object-contain"
+                    width={200}
+                    height={200}
+                    layout="responsive"
+                    src={web4}
+                  />
+                </a>
+              </Link>
+            </div>
+
+            {/* Movie App */}
+            <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
+              <Link href="https://github.com/huseyinbattal/Movie-App-with-React-Redux">
+                <a target="blank">
+                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
+                    Movie App
+                  </h1>
+
+                  <Image
+                    className="rounded-lg object-contain"
+                    width={200}
+                    height={200}
+                    layout="responsive"
+                    src={web1}
+                  />
+                </a>
+              </Link>
+            </div>
+
+            {/* Magic Form */}
             <div className=" bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
               <Link href="https://github.com/huseyinbattal/magic-form">
                 <a target="blank">
@@ -153,23 +189,8 @@ export default function Home() {
                 </a>
               </Link>
             </div>
-            <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
-              <Link href="https://github.com/huseyinbattal/react-portfolio">
-                <a target="blank">
-                  <h1 className="text-white font-bold text-center hover:cursor-pointer hover:text-blue-700 dark:text-white mb-1">
-                    Portfolio
-                  </h1>
 
-                  <Image
-                    className="rounded-lg object-contain"
-                    width={200}
-                    height={200}
-                    layout="responsive"
-                    src={web4}
-                  />
-                </a>
-              </Link>
-            </div>
+            {/* XOX Game */}
             <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
               <Link href="https://github.com/huseyinbattal/React-Tic-Tac-Toe-Game">
                 <a target="blank">
@@ -187,6 +208,8 @@ export default function Home() {
                 </a>
               </Link>
             </div>
+
+            {/* Personal Website */}
             <div className="bg-red-900 hover:bg-green-700 basis-1/3 flex-1 border-2 border-red-500 rounded-2xl p-2 hover:shadow-xl hover:shadow-teal-900 hover:border-teal-500 hover:border-double duration-500 hover:scale-105 transition">
               <Link href="https://github.com/huseyinbattal/huseyin-battal-portfolio-site">
                 <a target="blank">
