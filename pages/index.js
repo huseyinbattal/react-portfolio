@@ -70,7 +70,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10 py-10">
-            <h2 className="text-3xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
+            <h2 className="text-2xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Hüseyin Battal
             </h2>
             <h3 className="py-2 dark:text-white md:text-3xl">
