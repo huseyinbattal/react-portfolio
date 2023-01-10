@@ -108,7 +108,7 @@ export default function Home() {
         <section className="py-10">
           <h1 className=" text-2xl md:text-3xl py-1  dark:text-white text-center text-blue-900 mb-12 ">
             <div className="flex justify-center space-x-4">
-              <span>My Projects</span> <BsFillArrowDownSquareFill size={35} className="hover:text-red-800 text-teal-600 cursor-pointer dark:hover:text-white dark:text-gray-500 " onClick={down} />
+              <span>My Projects</span> <BsFillArrowDownSquareFill size={35} className="hover:text-red-800 text-teal-600 cursor-pointer dark:hover:text-white dark:text-gray-400 " onClick={down} />
             </div>
           </h1>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap ">
