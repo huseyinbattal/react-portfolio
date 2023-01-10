@@ -17,6 +17,7 @@ import web6 from "../public/personal.png";
 import logo from "../public/logobg.svg";
 
 import Link from "next/link";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -230,6 +231,9 @@ export default function Home() {
           </div>
         </section>
       </main>
+     
+        <Footer/>
+
     </div>
   );
 }
