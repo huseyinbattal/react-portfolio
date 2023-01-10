@@ -38,7 +38,7 @@ export default function Home() {
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
+          <nav className="py-10 mb-12 flex justify-between dark:text-white ">
             <Link href="/">
               <a>
                 <div className="hover:scale-150 transition-transform duration-500 cursor-pointer">
